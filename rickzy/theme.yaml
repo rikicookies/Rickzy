@@ -1,0 +1,10 @@
+name: Rickzy
+author: Riki
+description: Tema adaptado desde StickyMobile para OctoberCMS
+code: Rickzy
+form:
+    fields:
+        site_name:
+            label: Rickzy
+            type: text
+            default: Rickzy
