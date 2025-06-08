@@ -45,7 +45,7 @@ is_hidden = 0
             <div class="card-center me-3">
                 <a href="#" data-back-button class="btn btn-m float-end rounded-xl shadow-xl text-uppercase font-800 bg-highlight">Back Home</a>
             </div>
-            {% partial 'components/card_1' %}
+            <div class="card-overlay bg-black opacity-80"></div>
         </div>
 
 		<div class="card card-style">
@@ -357,7 +357,7 @@ is_hidden = 0
     </div>
     <!-- Menu Share -->
     <div id="menu-share" class="menu menu-box-bottom menu-box-detached">
-        <div class="menu-title mt-n1"><h1>Share the Love</h1><p class="color-highlight">Just Tap the Social Icon. We'll add the Link</p><a href="#" class="close-menu"><i class="fa fa-times"></i></a></div>
+        {% partial 'components/menu_203' %}
         <div class="content mb-0">
             <div class="divider mb-0"></div>
             <div class="list-group list-custom-small list-icon-0">

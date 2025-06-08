@@ -45,7 +45,7 @@ is_hidden = 0
             <div class="card-center me-3">
                 <a href="#" data-back-button class="btn btn-m float-end rounded-xl shadow-xl text-uppercase font-800 bg-highlight">Back Home</a>
             </div>
-            {% partial 'components/card_1' %}
+            <div class="card-overlay bg-black opacity-80"></div>
         </div>
 
 
@@ -65,7 +65,7 @@ is_hidden = 0
                     Try visiting this page from your mobile device. At the moment you are viewing it from a computer.
                 </p>
             </div>
-            {% partial 'components/card_1' %}
+            <div class="card-overlay bg-black opacity-80"></div>
         </div>
 
         <div data-card-height="281" class="card card-style bg-13 show-ios">
@@ -77,7 +77,7 @@ is_hidden = 0
                 </p>
                 <a href="#" class="btn btn-m rounded-xs btn-center-l bg-highlight text-uppercase font-900">Download from AppStore</a>
             </div>
-            {% partial 'components/card_1' %}
+            <div class="card-overlay bg-black opacity-80"></div>
         </div>
 
         <div data-card-height="280" class="card card-style bg-13 show-android">
@@ -89,10 +89,10 @@ is_hidden = 0
                 </p>
                 <a href="#" class="btn btn-m rounded-xs btn-center-l bg-highlight text-uppercase font-900">Download from PlayStore</a>
             </div>
-            {% partial 'components/card_1' %}
+            <div class="card-overlay bg-black opacity-80"></div>
         </div>
 
-        {% partial 'components/footer_3' %}
+        {% partial 'components/footer_240' %}
             <p class="footer-copyright">Copyright &copy; Enabled <span id="copyright-year">2017</span>. All Rights Reserved.</p>
             <p class="footer-links"><a href="#" class="color-highlight">Privacy Policy</a> | <a href="#" class="color-highlight">Terms and Conditions</a> | <a href="#" class="back-to-top color-highlight"> Back to Top</a></p>
             <div class="clear"></div>
