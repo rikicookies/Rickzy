@@ -45,7 +45,7 @@ is_hidden = 0
             <div class="card-center me-3">
                 <a href="#" data-back-button class="btn btn-m float-end rounded-xl shadow-xl text-uppercase font-800 bg-highlight">Back Home</a>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
 		<div class="card card-style bg-28 shadow-card shadow-card-l" style="height:180px">
@@ -81,7 +81,7 @@ is_hidden = 0
                 <p class="color-white text-center opacity-60 mt-n1 mb-3">These captions use dark color highlights.</p>
                 <a href="#" class="btn btn-m font-900 text-uppercase bg-red-dark btn-center-xl">Awesome</a>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
         <div class="card card-style bg-25" data-card-height="200">
@@ -92,7 +92,7 @@ is_hidden = 0
                 <h1 class="color-white text-center mb-0">Font Awesome 5</h1>
                 <p class="color-white text-center opacity-60 mt-n1 mb-3">Icons work like a charm here as well!.</p>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
         <div class="card card-style bg-13" data-card-height="250">
@@ -103,7 +103,7 @@ is_hidden = 0
                     <a href="#" data-menu="menu-settings" class="btn btn-m font-900 text-uppercase bg-red-dark">Share Page</a>
                 </p>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
 
@@ -139,7 +139,7 @@ is_hidden = 0
                 <h1 class="color-white text-center mb-n1">Glasses</h1>
                 <p class="color-white text-center opacity-60 ">A beautiful sunset at the docks!</p>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
         <div class="card card-style bg-28" data-card-height="175">
@@ -167,7 +167,7 @@ is_hidden = 0
                     </div>
                 </div>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
         <div class="card card-style bg-22" data-card-height="175">
@@ -182,19 +182,10 @@ is_hidden = 0
                     </div>
                 </div>
             </div>
-            <div class="card-overlay bg-black opacity-80"></div>
+            {% partial 'components/card_1' %}
         </div>
 
-        <div class="footer card card-style">
-            <a href="#" class="footer-title"><span class="color-highlight">StickyMobile</span></a>
-            <p class="footer-text"><span>Made with <i class="fa fa-heart color-highlight font-16 ps-2 pe-2"></i> by Enabled</span><br><br>Powered by the best Mobile Website Developer on Envato Market. Elite Quality. Elite Products.</p>
-            <div class="text-center mb-3">
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="icon icon-xs rounded-sm shadow-l me-1 bg-phone"><i class="fa fa-phone"></i></a>
-                <a href="#" data-menu="menu-share" class="icon icon-xs rounded-sm me-1 shadow-l bg-red-dark"><i class="fa fa-share-alt"></i></a>
-                <a href="#" class="back-to-top icon icon-xs rounded-sm shadow-l bg-dark-light"><i class="fa fa-angle-up"></i></a>
-            </div>
+        {% partial 'components/footer_3' %}
             <p class="footer-copyright">Copyright &copy; Enabled <span id="copyright-year">2017</span>. All Rights Reserved.</p>
             <p class="footer-links"><a href="#" class="color-highlight">Privacy Policy</a> | <a href="#" class="color-highlight">Terms and Conditions</a> | <a href="#" class="back-to-top color-highlight"> Back to Top</a></p>
             <div class="clear"></div>
